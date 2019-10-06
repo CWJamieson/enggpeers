@@ -1,0 +1,24 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    width: calc(100vw - 20px);
+    height: 20vh;
+    font-size: 2.5em;
+}
+
+.back {
+    display: inline;
+    text-decoration: none;
+    color: green;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    border: none;
+}
