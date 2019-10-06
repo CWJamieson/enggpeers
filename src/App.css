@@ -10,3 +10,49 @@
   width: 100vw;
   height: 100vh;
 }
+
+div {
+  position: absolute;
+  height: 21.67vh;
+  width: 50vw;
+}
+
+.header, .book-meeting, .time-management, .about {
+  left: 0;
+}
+
+.events, .problem-solving, .settings {
+  left: 50vw;
+}
+
+.header {
+  top: 0;
+  width: 100vw;
+  height: 35vh;
+}
+
+.news {
+  top: 21vh;
+  left: 13vw;
+  height: 10vh;
+  width: 74vw;
+}
+
+.news p {
+  margin: 0;
+  font-family: arial;
+  font-size: 1em;
+  color: #4D4D4D;
+}
+
+.book-meeting, .events {
+  top: 35vh;
+}
+
+.time-management, .problem-solving {
+  top: 56.67vh;
+}
+
+.about, .settings {
+  top: 78.34vh;
+}
