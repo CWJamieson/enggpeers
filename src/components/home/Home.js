@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { PATHS } from "./constants";
-import background from "./img/engg-peers-background.jpg";
+import { PATHS } from "../../helpers/constants";
+import background from "../../img/engg-peers-background.jpg";
 import './home.css';
 
 const Home = () => {
