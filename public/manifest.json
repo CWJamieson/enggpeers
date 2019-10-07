@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Enggpeers",
+  "name": "Engineering Peer Helpers",
   "icons": [
     {
       "src": "/images/icons-512.png",
@@ -9,6 +9,7 @@
     }
   ],
   "start_url": ".",
+  "orientation": "portrait",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
