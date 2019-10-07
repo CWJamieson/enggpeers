@@ -4,7 +4,6 @@ import './page.css';
 
 const Page = props => {
   const { src } = props.location.state;
-  console.log(src);
   return (
     <>
       <div className="page-header">
