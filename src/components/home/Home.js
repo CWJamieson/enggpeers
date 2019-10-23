@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { PATHS } from "../../helpers/constants";
+import { PATHS, WEB_URL } from "../../helpers/constants";
 import WEB_DEV from '../../helpers/constants';
 import background from "../../img/engg-peers-background.jpg";
 import './home.css';
@@ -20,7 +20,7 @@ const Home = () => {
             key={obj.classname}
             className={obj.classname + " to-page"}
             to={{
-              pathname: '/peerhelpers/page',
+              pathname: `${WEB_URL}/page`,
               state: {
                 src: obj.pathname
               }
