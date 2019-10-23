@@ -1,5 +1,5 @@
 import React from 'react';
-import WEB_URL from '../../helpers/constants';
+import { WEB_URL } from '../../helpers/constants';
 import { Link } from "react-router-dom";
 import './page.css';
 
