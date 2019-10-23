@@ -1,4 +1,5 @@
 export const GUELPH_URL = 'https://www.uoguelph.ca/engineering/peer/';
+export const WEB_URL = '/peerhelpers';
 export const BOOK_MEETING = 'book-meeting';
 export const EVENTS = 'events';
 export const ABOUT = 'about';
