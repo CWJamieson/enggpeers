@@ -7,12 +7,13 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path={`${WEB_URL}/`} component={Home} />
-        <Route path={`${WEB_URL}/page`} component={Page} />
-      </Switch>
-    </Router>
+    <iframe src={"https://www.uoguelph.ca/engineering/peer/book-meeting"} />
+    // <Router>
+    //   <Switch>
+    //     <Route exact path={`${WEB_URL}/`} component={Home} />
+    //     <Route path={`${WEB_URL}/page`} component={Page} />
+    //   </Switch>
+    // </Router>
   );
 };
 
